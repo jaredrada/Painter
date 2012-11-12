@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Hello There</title>
+    <link href="../css/normalize.css" rel="stylesheet">
+    <link href="../css/style.css" rel="stylesheet">
+    <link href="../css/percent.css" rel="stylesheet">
+    <script src="/socket.io/socket.io.js"></script>
+    <script src="/js/jquery.js"></script>
+    <script src="/js/underscore.js"></script>
+    <script src="/js/percent.js"></script>
+    <script src="/js/main.js"></script>
+</head>
+<body>
+    <div class="wrapper">
+        <h1 class="title">The Painting Game</h1>
+        <div id="field">
+            <p class="waiting"><span style="font-size: 20px;">Waiting for players to join.</span></p>
+            <div id="box"></div>
+        </div>
+        <div class="stats">
+            <p class="intro">This game demonstrates the use of node.js, express, and socket.io. Have others join the game by visiting this website. When the game begins, mouse over the tiles to reveal the image below. The user who uncovers the most amount of tiles wins the game.</p>
+            <div class="hr"></div>
+            <div id="players" class="players"></div>
+            <div id="progress" class="progress"></div>
+        </div>
+    </div>
+</body>
+</html>
